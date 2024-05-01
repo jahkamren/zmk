@@ -3,10 +3,10 @@ manifest:
     - name: zephyrproject-rtos
       url-base: https://github.com/zephyrproject-rtos
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+      url-base: https://github.com/jahkamren
   projects:
     - name: zephyr
-      remote: zmkfirmware
+      remote: zmk-custom
       revision: v3.5.0+zmk-fixes
       clone-depth: 1
       import:
